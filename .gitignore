@@ -1,0 +1,6 @@
+__pycache__
+*.ini
+.vscode/
+.idea/
+*.txt
+*.yaml
