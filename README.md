@@ -7,7 +7,7 @@ Can be more controllable than random picks using comfyUIs built in {option1|opti
 # Installation
 1. Clone this repo into `custom_nodes` folder.
 2. These nodes have no dependencies so no need to pip install a requirements.txt
-3. You will need a combination node to join multiple prompt options together like
+3. You will need a combination node to join multiple prompt options together like that found in the WAS Node Suite
 4. An example workflow is provided in the repo (it uses some other nodes you can install from comfyUI Manager)
 
 ## Nodes:
