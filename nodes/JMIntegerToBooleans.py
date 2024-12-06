@@ -40,10 +40,10 @@ class JMIntegerToBooleans:
         Thus the outputs represent a decimal number between 0 and 1023 in binary
 
         Inputs:
-            input_intger: an integer (any value above 1023 will only have the binary digits up to 512 considered)
+            input_intger (integer): an integer (any value above 1023 will only have the binary digits up to 512 considered)
 
         Outputs:
-            tuple: a 10-tuple of bninary values, least significant first
+            tuple(booleans): a 10-tuple of binary values, least significant first
         """
         # catch type issues and prevent crashes
         if type(input_integer) is not int:

@@ -39,7 +39,7 @@ class JMNumberList:
         returns  a list of numbers from 0 up to the specified number (max 1023)
 
         Inputs:
-            input_integer: the number up to which we will geenrate a list of integers
+            input_integer (integer): the number up to which we will generate a list of integers
 
         Outputs:
             list(integers): the required list of integers

@@ -1,4 +1,4 @@
-class JMSWitchablePrompt:
+class JMSwitchablePrompt:
     """
     A prompt which will be forwarded if the corresponding boolean value is True, otherwise the empty string will be sent
     This is useful for creating boolean permutations of prompts in combination with JMIntegerToBooleans and JMNumberList
@@ -38,8 +38,8 @@ class JMSWitchablePrompt:
         returns either the prompt or an empty string depending on boolean_switch
 
         Inputs:
-            prompt: the prompt which will be forwarded if the boolean_switch is true
-            boolean_switch: boolean value either True or False (default: False)
+            prompt (string): the prompt which will be forwarded if the boolean_switch is true
+            boolean_switch (boolean): boolean value either True or False (default: False)
 
         Outputs:
             string: either the prompt or an empty string depending on boolean_switch
