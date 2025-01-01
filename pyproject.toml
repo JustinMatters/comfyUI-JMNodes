@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-jmnodes"
+description = "Provides nodes to support generation of all possible combinations of a set of prompts via boolean logic"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/JustinMatters/comfyUI-JMNodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyUI-JMNodes"
+Icon = ""
